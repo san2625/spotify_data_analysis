@@ -39,7 +39,7 @@ Dataset Source
 - Kaggle
 - ~20,000+ records
 - 24 columns
-- 
+
 ## Project Steps
 
 ### 1. Data Exploration
