@@ -3,8 +3,7 @@
 ![Spotify Logo](https://github.com/san2625/spotify_data_analysis/blob/main/spotify_logo.jpg)
 
 ## Overview
-This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
-
+This project analyzes Spotify streaming data using SQL to uncover trends in artist performance, track popularity, album engagement, and listener behavior. The project demonstrates SQL concepts including aggregations, window functions, CTEs, subqueries, and query optimization
 ```sql
 -- create table
 DROP TABLE IF EXISTS spotify;
@@ -35,6 +34,12 @@ CREATE TABLE spotify (
     most_played_on VARCHAR(50)
 );
 ```
+## Dataset
+Dataset Source
+- Kaggle
+- ~20,000+ records
+- 24 columns
+- 
 ## Project Steps
 
 ### 1. Data Exploration
